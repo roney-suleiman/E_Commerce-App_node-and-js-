@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./css/signup-styles.css" />
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="./js/login-index.js" type="module" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Nav -->
+      <div class="nav container">
+        <a class="logo" href="index.html">Ecommerce</a>
+        <!-- Cart Icon -->
+        <div>
+          <a class="login" href="/">Login</a>
+          <a class="signup" href="signup.html">SignUp</a>
+          <i id="cart-icon" class="bx bx-shopping-bag"></i>
+        </div>
+        <!-- <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <div class="cart-content">
+
+          </div>
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">0€</div>
+          </div>
+          <button type="button" class="btn-buy">Buy Now</button>
+          <i class="bx bx-x" id="close-cart"></i>
+        </div> -->
+      </div>
+    </header>
+
+    <form action="/action_page.php">
+      <h1>LOGIN</h1>
+      <div class="icon">
+        <i class="fas fa-user-circle"></i>
+      </div>
+      <div class="formcontainer">
+      <div class="container">
+        <label for="mail"><strong>E-mail</strong></label>
+        <input class="email" type="email" placeholder="Enter E-mail" name="mail" required>
+        <label for="psw"><strong>Password</strong></label>
+        <input class="password" type="password" placeholder="Enter Password" name="psw" required>
+      </div>
+      <button class="btn-login" type="button"><strong>LOGIN</strong></button>
+      <div class="container" style="background-color: #eee">
+        <label style="padding-left: 15px">
+        <!-- <input type="checkbox"  checked="checked" name="remember"> Remember me -->
+        <a href="/signup.html"><strong>Go To SIGNUP</strong></a>
+        </label>
+      </div>
+    </form>
+
+</body>
+</html>

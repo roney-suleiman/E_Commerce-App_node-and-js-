@@ -1,0 +1,142 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    }
+    
+    :root {
+    --main-color: #fd4646;
+    --text-color: #171427;
+    --bg-color: #fff;
+    }
+    
+    img{
+        width: 100%;
+    }
+    
+    body{
+        color: var(--text-color);
+    }
+    
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: var(--bg-color);
+        /* box-shadow: 0 1px 4px hsl(0, 4%, 15% / 10%); */
+        box-shadow: 0px 1px 4px rgb(204, 208, 209);
+        z-index: 100;
+    }
+    
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    
+    .container{
+        max-width: 1086px;
+        margin: auto;
+        width: 100%;
+    }
+    
+    section{
+        padding: 4rem 0 3rem;
+    }
+    
+    .logo{
+        font-size: 1.1rem;
+        color: var(--text-color);
+        font-weight: 400;
+    }
+    
+    .login{
+        font-size: 1.1rem;
+        color: var(--text-color);
+        font-weight: 400;
+    }
+    .signup{
+        font-size: 1.1rem;
+        color: var(--text-color);
+        font-weight: 400;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    
+    
+    #cart-icon{
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+
+/* /////////// */
+
+    form{
+        margin-top: 100px;
+    }
+  html, body {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  }
+  form {
+  border: 5px solid #f1f1f1;
+  }
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 16px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  }
+  .icon {
+  font-size: 110px;
+  display: flex;
+  justify-content: center;
+  color: #4286f4;
+  }
+  button {
+  background-color: #4286f4;
+  color: white;
+  padding: 14px 0;
+  margin: 10px 0;
+  border: none;
+  cursor: grab;
+  width: 48%;
+  }
+  h1 {
+  text-align:center;
+  font-size:18;
+  }
+  button:hover {
+  opacity: 0.8;
+  }
+  .formcontainer {
+  text-align: center;
+  margin: 24px 50px 12px;
+  }
+  .container {
+  padding: 16px 0;
+  text-align:left;
+  }
+  span.psw {
+  float: right;
+  padding-top: 0;
+  padding-right: 15px;
+  }
+  /* Change styles for span on extra small screens */
+  @media screen and (max-width: 300px) {}
+  span.psw {
+  display: block;
+  float: none;
+  }
